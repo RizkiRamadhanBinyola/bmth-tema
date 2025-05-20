@@ -1,0 +1,373 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@600;700&display=swap");
+
+a:hover {
+	text-decoration: none;
+}
+
+div.clearfix {
+	clear: both;
+}
+
+nav.navbar {
+	background-color: white;
+	box-shadow: 1px 2px 12px rgba(0, 0, 0, 0.1);
+	height: 60px;
+	position: sticky;
+	top: 0;
+	width: 100%;
+	z-index: 2;
+}
+
+div.help-heigh-navbar {
+	height: 60px;
+}
+
+button.btn-chat-help-pojok-kanan-bawah {
+	border-radius: 50%;
+	color: white;
+	border: none;
+	bottom: 30px;
+	outline: none;
+	padding: 10px 20px;
+	position: fixed;
+	right: 30px;
+	z-index: 10;
+	height: 60px;
+	width: 60px;
+}
+
+button.btn-chat-help-pojok-kanan-bawah i {
+	font-size: 38px;
+	position: relative;
+	left: 50%;
+	transform: translate(-50%, 0);
+}
+
+div.box-chat-help-wa {
+	background-color: white;
+	bottom: 100px;
+	display: none;
+	height: auto;
+	position: fixed;
+	right: 30px;
+	width: 300px;
+	z-index: 10;
+}
+
+div.box-chat-help-wa div.top {
+	height: auto;
+	width: 100%;
+}
+
+div.box-chat-help-wa div.top h4 {
+	color: white;
+	font-size: 18px;
+	padding: 10px 0;
+}
+
+div.box-chat-help-wa input,
+div.box-chat-help-wa textarea {
+	font-size: 13px;
+}
+
+div.box-chat-help-wa textarea {
+	height: 150px;
+}
+
+div.social-proof {
+	background-color: white;
+	border-radius: 50px;
+	box-shadow: 2px 5px 10px 1px rgba(0, 0, 0, 0.2);
+	box-sizing: border-box;
+	height: auto;
+	position: fixed;
+	padding-right: 5px;
+	left: 20px;
+	bottom: -100px;
+	width: 300px;
+	transition: 0.5s;
+	z-index: 9;
+  }
+  
+  div.social-proof div.main {
+	display: flex;
+  }
+  
+  div.social-proof div.main img {
+	border-radius: 50%;
+	height: 75px;
+	padding: 5px;
+	object-fit: cover;
+	width: 75px;
+  }
+  
+  div.social-proof div.main div.text {
+	display: flex;
+	flex-direction: column;
+	margin-left: 5px;
+	height: 75px;
+	justify-content: center;
+  }
+  
+  div.social-proof div.main div.text span img {
+	height: auto;
+	width: 20px;
+  }
+  
+  div.social-proof div.main div.text p {
+	margin-bottom: 0;
+	margin-top: 0;
+	font-size: 14px;
+  }
+  
+  div.social-proof div.main div.text p.product_name {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 1;
+	-webkit-box-orient: vertical;
+  }
+  
+  div.social-proof div.main div.text span.verified {
+	color: #888;
+	font-size: 13px;
+  }
+  
+  div.social-proof div.main div.text span.verified img {
+	padding: 0;
+	width: 15px;
+  }
+  
+  div.social-proof div.main div.text span.verified span.app_name {
+	color: royalblue;
+  }
+  
+  div.social-proof div.main div.text .font-bold {
+	font-weight: bold;
+  }
+
+.loading-animation-load-more {
+	display: none;
+	left: 50%;
+	position: relative;
+	transform: translate(-50%, 0);
+	margin-top: 5px;
+	width: 100px;
+}
+
+nav.navbar div.main {
+	align-items: center;
+	display: flex;
+	height: 100%;
+	justify-content: space-between;
+	margin: auto;
+	position: relative;
+	width: 1000px;
+}
+
+nav.navbar div.main img.logo {
+	height: 50px;
+	position: relative;
+}
+
+nav.navbar div.main img.logo-favicon {
+	display: none;
+}
+
+nav.navbar div.main form {
+	position: relative;
+}
+
+nav.navbar div.main form input {
+	border: 1px solid #ddd;
+	border-radius: 18px;
+	font-size: 15px;
+	height: 40px;
+	outline: none;
+	padding: 0 20px;
+	transition: 0.2s;
+	width: 550px;
+}
+
+nav.navbar div.main form input:focus {
+	border: 1px solid #aaa;
+}
+
+nav.navbar div.main form i {
+	color: #666666;
+	position: absolute;
+	right: 18px;
+	top: 50%;
+	transform: translate(0, -50%);
+}
+
+nav.navbar div.main .fa-bars {
+	cursor: pointer;
+	font-size: 23px;
+}
+
+div.carousel {
+	box-sizing: border-box;
+	left: 50%;
+	padding-top: 20px;
+	position: relative;
+	transform: translate(-50%, 0);
+	width: 1000px;
+}
+
+div.carousel img {
+	border-radius: 10px;
+	overflow: hidden;
+	width: 100%;
+}
+
+.side-bar-menu-mobile {
+	display: block;
+	position: absolute;
+	left: -100%;
+	z-index: 100;
+}
+
+.overlay-menu {
+	background: rgba(0, 0, 0, 0.7);
+	display: none;
+	height: 100vh;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 99;
+}
+
+.side-bar-menu-mobile .menu {
+	background-color: white;
+	box-sizing: border-box;
+	height: 100vh;
+	position: fixed;
+	top: 0;
+	width: 250px;
+}
+
+.side-bar-menu-mobile .menu a {
+	color: #333333;
+	font-size: 15px;
+	display: block;
+	position: relative;
+	top: 10px;
+	padding: 8px 0;
+	margin: 0 30px;
+}
+
+.side-bar-menu-mobile .menu .login-button {
+	background-color: saddlebrown;
+	border-radius: 3px;
+	color: white;
+	padding: 8px 15px;
+	text-align: center;
+	margin-top: 8px;
+}
+
+.side-bar-menu-mobile .menu .img {
+	position: relative;
+	height: 50px;
+	display: block;
+	left: 0;
+	padding-left: 30px;
+	top: 0;
+	width: 100%;
+}
+
+.side-bar-menu-mobile .menu img {
+	height: 28px;
+	position: relative;
+	top: 50%;
+	transform: translate(0, -50%);
+}
+
+footer {
+	background-color: white;
+	box-shadow: 1px 3px 15px rgba(0, 0, 0, 0.2);
+	margin-top: 100px;
+}
+
+footer div.information div.main {
+	display: flex;
+	flex-direction: column;
+	height: auto;
+	margin: auto;
+	padding: 30px 0;
+	position: relative;
+	width: 1000px;
+}
+
+footer div.information div.main img.logo-footer {
+	margin-bottom: 10px;
+	left: 50%;
+	position: relative;
+	transform: translate(-50%, 0);
+	width: 150px;
+}
+
+footer div.information div.main p.description-store {
+	color: #444;
+	left: 50%;
+	margin-top: 10px;
+	position: relative;
+	transform: translate(-50%, 0);
+	text-align: center;
+	width: 80%;
+}
+
+footer div.information div.main div.payment_logo {
+	left: 50%;
+	margin-top: 5px;
+	position: relative;
+	transform: translate(-50%, 0);
+	width: 235px;
+}
+
+footer div.information div.main img.logo_payment {
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	margin-bottom: 5px;
+	padding: 5px;
+	width: 55px;
+}
+
+footer div.information div.main div.social-media {
+	display: flex;
+	justify-content: center;
+	margin-top: 15px;
+}
+
+footer div.information div.main div.social-media a {
+	color: #555;
+	font-size: 20px;
+	margin: 0 10px;
+}
+
+footer div.information div.main div.social-media a:hover {
+	color: black;
+}
+
+footer div.copyright {
+	background-color: #363f4d;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	height: 50px;
+	justify-content: center;
+	padding: 0 20px;
+	position: relative;
+	width: 100%;
+}
+
+footer div.copyright p {
+	color: #eee;
+	font-family: "Open Sans";
+	font-size: 13px;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, 0);
+	text-align: center;
+}
