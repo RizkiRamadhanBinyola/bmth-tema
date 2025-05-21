@@ -16,6 +16,8 @@
     <meta property="og:site_name" content="https://Muhamad Reza Bariqi-Raditasetyamurin.wuaze.com/" />
     <meta property="og:image" content="assets/images/logo/favicon-32x32.png" />
     <meta property="og:image:secure_url" content="assets/images/logo/favicon-32x32.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id="></script>
@@ -101,7 +103,7 @@
         }
 
         .wrapper #buttonIconVolumeMusic {
-            background: #bf9000;
+            background: #333;
         }
 
         .wrapper .main-container-page-2 {
@@ -460,31 +462,31 @@
         </div>
         <!-- End Lokasi -->
 
-<!-- Start GIFT -->
-<div class="main-container main-container-page-6">
-    <div class="content-wrapper">
-        <div class="content-item">
-            <h2 class="title">Gift</h2>
-            <p class="text-home">Doa restu Anda merupakan karunia yang sangat berarti bagi kami. Namun jika memberi adalah ungkapan tanda kasih, kami dengan senang hati menerimanya.</p>
+        <!-- Start GIFT -->
+        <div class="main-container main-container-page-6">
+            <div class="content-wrapper">
+                <div class="content-item">
+                    <h2 class="title">Gift</h2>
+                    <p class="text-home">Doa restu Anda merupakan karunia yang sangat berarti bagi kami. Namun jika memberi adalah ungkapan tanda kasih, kami dengan senang hati menerimanya.</p>
 
-            <div class="gift-box">
-                <p class="gift-label">Rekening atas nama:</p>
-                <br>
-                <p class="gift-detail">
-                    <img src="assets/images/design/bca.png" alt="BCA" style="height: 30px; vertical-align: middle; margin-right: 5px;">
-                    8310183581 – Kesya Nandita Simorangkir
-                </p>
-                <br>
-                <p class="gift-detail">
-                    <img src="assets/images/design/bca.png" alt="BCA" style="height: 30px; vertical-align: middle; margin-right: 5px;">
-                    6630790237 – Muhamad Reza Bariqi
-                </p>
+                    <div class="gift-box">
+                        <p class="gift-label">Rekening atas nama:</p>
+                        <br>
+                        <p class="gift-detail">
+                            <img src="assets/images/design/bca.png" alt="BCA" style="height: 30px; vertical-align: middle; margin-right: 5px;">
+                            8310183581 – Kesya Nandita Simorangkir
+                        </p>
+                        <br>
+                        <p class="gift-detail">
+                            <img src="assets/images/design/bca.png" alt="BCA" style="height: 30px; vertical-align: middle; margin-right: 5px;">
+                            6630790237 – Muhamad Reza Bariqi
+                        </p>
+                    </div>
+                </div>
             </div>
+            <div class="bg-sampul"></div>
         </div>
-    </div>
-    <div class="bg-sampul"></div>
-</div>
-<!-- End Gift -->
+        <!-- End Gift -->
 
 
 
@@ -545,15 +547,35 @@
             <div class="content-wrapper">
                 <div class="content-item">
                     <p class="title custom-font-family wow fadeInDown">Penutup</p>
-                    <span class="info custom-warna-font wow fadeInUp">Merupakan suatu kehormatan dan kebahagiaan bagi kami apabila bapak/Ibu/Saudara/i berkenan hadir untuk memberikan do'a restu kepada kami</span>
-                    <span class="salam custom-warna-font wow fadeInUp" data-wow-delay="0.3s">Wassalamu'alaikum warahmatullahi wabarakatuh</span>
-                    <h4 class="nama-mempelai custom-font-family wow fadeInUp mb-0">~Muhamad Reza Bariqi & Kesya Nandita Simorangkir~</h4><br>
-                    <small class="design-by wow fadeInUp" data-wow-delay="0.6s"><span class="design-by custom-warna-font">By</span> <a href="https://azlinvitation.com/" class="text-decoration-none custom-warna-font custom-hover">azlinvitation.com</a></small>
+                    <span class="info custom-warna-font wow fadeInUp">
+                        Merupakan suatu kehormatan dan kebahagiaan bagi kami apabila bapak/Ibu/Saudara/i berkenan hadir untuk memberikan do'a restu kepada kami
+                    </span>
+                    <span class="salam custom-warna-font wow fadeInUp" data-wow-delay="0.3s">
+                        Wassalamu'alaikum warahmatullahi wabarakatuh
+                    </span>
+                    <h4 class="nama-mempelai custom-font-family wow fadeInUp mb-0">
+                        ~Muhamad Reza Bariqi & Kesya Nandita Simorangkir~
+                    </h4>
+                    <small class="wow fadeInUp custom-font-family-unica-one-regular custom-warna-font">
+                        <i class="fa fa-instagram"></i>
+                        <a href="https://www.instagram.com/r.bariqi/" target="_blank" class="text-decoration-none custom-warna-font custom-hover">@R.bariqi</a>
+                        &nbsp;
+                        <i class="fa fa-instagram"></i>
+                        <a href="https://www.instagram.com/kezianand_/" target="_blank" class="text-decoration-none custom-warna-font custom-hover">@Kezianand_</a>
+                    </small>
+                    <br>
+                    <small class="design-by wow fadeInUp" data-wow-delay="0.6s">
+                        <span class="design-by custom-warna-font">By</span>
+                        <i class="fa fa-instagram custom-warna-font"></i>
+                        <a href="https://www.instagram.com/kii.rb/" class="text-decoration-none custom-warna-font custom-hover">@kii.rb</a>
+                    </small>
                 </div>
             </div>
             <div class="bg-sampul"></div>
         </div>
         <!-- End Penutup -->
+
+
 
         <img src="assets/images/design/kiriatas.png" alt="frame kiri atas" class="frame-preview wow fadeInLeft" id="previewFrameLeftTop">
         <img src="assets/images/design/59728d3ed90149c3b0b519d323a5efa9-removebg-preview.png" alt="frame kanan atas" class="frame-preview wow fadeInRight" id="previewFrameRightTop">
@@ -564,7 +586,7 @@
 
         <!-- Start Bar -->
         <div class="tabbar">
-            <div class="tabbar-main custome-font-family-unica-one-regular">
+            <div class="tabbar-main custom-font-family-unica-one-regular">
                 <div class="item item-page-2 item-active" onclick="changePage(2)">
                     <span>Sampul</span>
                 </div>
@@ -596,7 +618,7 @@
     <script src="assets/js/jquery.countdown.min.js"></script>
 
     <script>
-        const globalAudioURL = "assets/music/music.mp3";
+        const globalAudioURL = "assets/music/banda-naira.mp3";
         const musicAudio = new Audio(globalAudioURL);
         let audioIsPlaying = false;
         musicAudio.loop = true;
